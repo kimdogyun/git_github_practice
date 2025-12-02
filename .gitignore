@@ -1,1 +1,4 @@
 test_folder/import_config.yml
+# 하번 add또는커밋 된 파일은 다시 ignore처리 되지 않음
+
+test_folder/test1.txt
