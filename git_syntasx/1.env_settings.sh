@@ -25,5 +25,5 @@ git config --list
 # 2-1).git 폴더를 생성
 git init
 #2-2)원격지 주소를 추가
-git remote add origin 원격지주소
+git remote add origin 원격지주소g
 
