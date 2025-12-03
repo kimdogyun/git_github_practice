@@ -75,3 +75,5 @@ git checkout 브랜치명
 git checkout -b 브랜치명
 #로컬브랜치 삭제(원격은 별도로 삭제)
 git branch -D 브랜치명 
+
+#한번쓴 브랜치는 재활용 X
