@@ -12,6 +12,9 @@ git commit -m "메시지제목" -m "메시지내용"
 # git commit만 입력하고 엔터시 vi모드 -> 첫줄:타이틀,두번째준부터 내용 -> : wq 저장후 종료시 커밋ID생성
 git commit
 
+# add. 와 commit을 동시에
+git commit -am " "
+
 #commit 이력 확인
 git log     
 git log --oneline
@@ -24,4 +27,12 @@ git log --all
 git push origin 브랜치명 
 #충동발생기 충동무시하고,로컬기준의 코드를 원경에 덮어쓰기 (절대사용금지)
 git oush origin 브랜치면 --force
+
+#특정 commit ID로의 전환
+git checkout 커밋ID
+#특정 브랜치로의 전환 
+git checkout 브랜치명
+
+
+
 
